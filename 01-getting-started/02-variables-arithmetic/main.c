@@ -96,7 +96,7 @@
  * 
  * ====================================================================
  */
-*/
+
 
 /**
  * Program: Fahrenheit to Celsius Temperature Converter
@@ -130,7 +130,7 @@ int main() {
     printf("----------------------------\n");
     
     // Loop through Fahrenheit values and convert to Celsius
-    while(fahrenheit < MAX_FAHRENHEIT) {
+    while(fahrenheit <=MAX_FAHRENHEIT) {
         // CRITICAL: Multiply first, then divide!
         // 5 * (fahrenheit - 32) / 9  gives integer result
         // (5/9) * (fahrenheit - 32)  would give 0 (integer division!)
