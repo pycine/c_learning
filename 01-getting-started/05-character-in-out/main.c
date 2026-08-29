@@ -12,7 +12,7 @@
  * putchar() = prints ONE character to screen
  * EOF = End of File (-1) - Ctrl+D (Linux) or Ctrl+Z (Windows)
  * 
- * ⚠️ CRITICAL:
+ * CRITICAL:
  * 1. int c (not char!) - EOF is -1
  * 2. (c = getchar()) != EOF - parentheses needed!
  * 3. == for compare, = for assignment
